@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O aplikaciji &#8212; Njuskalo Poštar 0.0.1 dokumentacija</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Abecedni popis" href="genindex.html" />
+    <link rel="search" title="Traži" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigacija</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Opceniti abecedni indeks"
+             accesskey="I">abecedni indeks</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Njuskalo Poštar 0.0.1 dokumentacija</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">O aplikaciji</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="o-aplikaciji">
+<h1>O aplikaciji<a class="headerlink" href="#o-aplikaciji" title="Link na taj naslov">¶</a></h1>
+<p>Aplikacija za dohvat, analizu i obaviještavanje na temelju podataka sa njuškalo.hr stranice.
+Za više informacija i licenciranju produkcijske verzije aplikacije obratite se na <a class="reference external" href="mailto:hrvojej&#37;&#52;&#48;gmail&#46;com">hrvojej<span>&#64;</span>gmail<span>&#46;</span>com</a>.</p>
+<p>Slobodno se obratiti i ako imate specifičnih zahtjeva glede dohvata, analize i definiranje poslovne logike nad podacima iz ostalih web stranica ili različitih ostalih izvora podataka (baza i skladišta podataka, raznih nestrukturiranih podataka i sl.)</p>
+</div>
+<div class="section" id="dohvat-podataka-sa-njuskalo-hr-stranice">
+<h1>Dohvat podataka sa njuskalo.hr stranice<a class="headerlink" href="#dohvat-podataka-sa-njuskalo-hr-stranice" title="Link na taj naslov">¶</a></h1>
+<p>Pod  “<strong>Unesite URL</strong>” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa njuskalo.hr.
+Savjetujemo da unesete link sa već podešenim filterima na Njuškalu tipa:</p>
+<p><a class="reference external" href="https://www.njuskalo.hr/prodaja-stanova?locationIds=2676&amp;livingArea%5Bmin%5D=60&amp;livingArea%5Bmax%5D=120&amp;adsWithImages=1&amp;flatBuildingType=flat-in-residential-building&amp;flatFloorCount=single-floor&amp;numberOfRooms%5Bmax%5D=two-rooms">https://www.njuskalo.hr/prodaja-stanova?locationIds=2676&amp;livingArea%5Bmin%5D=60&amp;livingArea%5Bmax%5D=120&amp;adsWithImages=1&amp;flatBuildingType=flat-in-residential-building&amp;flatFloorCount=single-floor&amp;numberOfRooms%5Bmax%5D=two-rooms</a></p>
+<p>Jer za pretpostaviti da tražite stan u određenom dijelu grada, određene veličine itd.</p>
+<img alt="_images/kix.53nm7xvsyw6n.png" src="_images/kix.53nm7xvsyw6n.png" />
+<p>Ovaj pogled je bitan kako biste bili sigurni da je program uspješno učitao web stranicu.</p>
+</div>
+<div class="section" id="analiza-podataka-iz-web-stranice">
+<h1>Analiza podataka iz web stranice<a class="headerlink" href="#analiza-podataka-iz-web-stranice" title="Link na taj naslov">¶</a></h1>
+<p>Kliknite na tab “<strong>Podaci iz web stranice</strong>”.
+Crveno uokvireno su naslovi polja koji ujedno funkcioniraju kao i filteri. Slično kao u Excelu.
+Ako kliknet na npr. polje “<strong>Naslov</strong>” otvoriti će vam se svi naslovi oglasa. Zatim idite na polje “<strong>Pretraga</strong>” (odmah iznad) i tu možete upisati tekst po kojem želite filtrirati polje “<strong>Naslov</strong>” npr. “<em>U zgradi</em>”.
+Na sličan način možete pretraživati i po ostalim poljima; prvo kliknite na polje a onda u polje pretrage unesete pojam po kojem želite pretraživati.
+Savjet je da proučite sadržaj pojedinih polja kako biste znali kreirati obavještavanje na slijedećem tabu.</p>
+</div>
+<div class="section" id="postavljanje-obavijestavanja">
+<h1>Postavljanje obaviještavanja<a class="headerlink" href="#postavljanje-obavijestavanja" title="Link na taj naslov">¶</a></h1>
+<p>Kliknite na tab “ Obavještavanje ”.
+CIlj obaviještavanja je da vas aplikacija svakih odabrani broj minuta na vaš mail obavještava kada se pojavio novi oglas koji zadovoljava vaše kriterije.
+Na slici dolje dan je primjer kako možete podesiti obavještavanje.</p>
+<img alt="_images/kix.u6gjg8i41bdq.png" src="_images/kix.u6gjg8i41bdq.png" />
+<p>Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na njuskalo.hr i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na njuskalu u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email.</p>
+<div class="section" id="podesavanje-email-adrese">
+<h2>Podešavanje email adrese<a class="headerlink" href="#podesavanje-email-adrese" title="Link na taj naslov">¶</a></h2>
+<p>Važno je napomenuti da ova aplikacije</p>
+<p><strong>ne skuplja, ne šalje i ne procesira vaše osobne podatke  niti skuplja podatke o korištenju same aplikacije. Sva komunikacije koju aplikacija ima je između nje same i njuskala.hr te Googlovog email servisa.</strong></p>
+<p>Ova aplikacija zahtjeva da unesete i email adresu i email lozinku u nju. Zašto? Jer je to najjednostavniji, najbrži i besplatan način dohvata novih podataka i slanja obavijesti o istima.
+Svi ostali mehanizmi/aplikacije zahtjevaju plaćenu platformu ili kompleksne načine osobne autentifikacija na Google račun što nije trivijalan proces niti besplatan proces. A ova aplikacija je besplatna.
+S obzirom da Google takve aplikacije doživljava kao “manje sigurne” stoga morate dopustiti “manje sigurnim aplikacijama” dopuštenje da šalju email na vaš Google račun.</p>
+</div>
+<div class="section" id="kako-dopustiti-manje-sigurnim-aplikacijama-da-mi-salju-email">
+<h2>Kako dopustiti manje sigurnim aplikacijama da mi šalju email?<a class="headerlink" href="#kako-dopustiti-manje-sigurnim-aplikacijama-da-mi-salju-email" title="Link na taj naslov">¶</a></h2>
+<p>Idite na <a class="reference external" href="https://myaccount.google.com/lesssecureapps">https://myaccount.google.com/lesssecureapps</a>. Nakon što uključite tu opcije pomoću slidera, na mjestu gdje pokazuje 1. Strelica mora stajati “<strong>ON”.</strong></p>
+<img alt="_images/kix.f7i1vn98ta.png" src="_images/kix.f7i1vn98ta.png" />
+<p>Ako nećete neko vrijeme koristiti ovu aplikaciju Google će automatski isključiti ovu opciju i postaviti je na <strong>OFF</strong>.</p>
+<p>Vašem gmail računu se neće ništa desiti ako tu opciju uključite, no da biste ostali apsolutno zaštićeni toplo preporučamo da kreirate novi google račun pa njega koristite sa ovom aplikacijom. Evo adrese za izradu novog Google računa <a class="reference external" href="https://accounts.google.com/signup">https://accounts.google.com/signup</a>.</p>
+<p>Druga prednost korištenja novog Google računa je da ćete sa tog računa primati samo obavijesti iz ove aplikacije, dakle nećete imati tone drugih nevažnih obavijesti koje inače dobivate ako koristiti neki Google account duže vrijeme.</p>
+</div>
+<div class="section" id="slanje-testnog-emaila">
+<h2>Slanje testnog emaila<a class="headerlink" href="#slanje-testnog-emaila" title="Link na taj naslov">¶</a></h2>
+<p>Kada popunite cijeli obrazac za obavještavanje prije nego pokrenete pravilo obavještavanja važno je vidjeti da li aplikacija može uspješno slati mailove na vaš račun.</p>
+<p>Dovoljno je da kliknete na “<strong>Pošalji test mail</strong>” gumb i potom provjerite vaš mail. Aplikacije će poslati 10 testnih zapisa iz trenutnog prikaza taba “<strong>Podaci iz web stranice</strong>”.
+Nakon klika dobiti ćete obavijest:</p>
+<img alt="_images/kix.97y348a08h70.png" src="_images/kix.97y348a08h70.png" />
+<p>Kliknite OK i provjerite mail koji ste unijeli. Testni mail će biti sličan ovome:</p>
+<img alt="_images/kix.xqogntbnpin0.png" src="_images/kix.xqogntbnpin0.png" />
+<p>Dakle spremni ste za pokretanje pravila.</p>
+</div>
+</div>
+<div class="section" id="pokretanje-pravila">
+<h1>Pokretanje pravila<a class="headerlink" href="#pokretanje-pravila" title="Link na taj naslov">¶</a></h1>
+<p>Pravilo pokrećete sa klikom na gumb “<strong>Kreni</strong>”, a zaustavljate ga sa klikom na gumb “<strong>Zaustavi</strong>” (sasvim neobično zar ne? :) ).</p>
+<p>U području iznad tih gumbiju vidjeti ćete obavijesti o trenutnom statusu procesa obavještavanja kao što je prikazano na slici dolje:</p>
+<img alt="_images/kix.6od9hcd9wno.png" src="_images/kix.6od9hcd9wno.png" />
+</div>
+<div class="section" id="licenca">
+<h1>Licenca<a class="headerlink" href="#licenca" title="Link na taj naslov">¶</a></h1>
+<p>Dopušteno je  korištenje i distribucija ove aplikacije u komercijalne i nekomercijalne svrhe.</p>
+</div>
+<div class="section" id="buduci-razvoj">
+<h1>Budući razvoj<a class="headerlink" href="#buduci-razvoj" title="Link na taj naslov">¶</a></h1>
+<p>Kroz daljnji razvoj planira se :</p>
+<ul class="simple">
+<li><p>Implementacija dohvata sa oglasa sa ostalih portala: index.hr, oglasnik.hr itd.</p></li>
+<li><p>Implementacija kreiranja više različitih pravila obavještavanja odjednom</p></li>
+</ul>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">O aplikaciji</a></li>
+<li><a class="reference internal" href="#dohvat-podataka-sa-njuskalo-hr-stranice">Dohvat podataka sa njuskalo.hr stranice</a></li>
+<li><a class="reference internal" href="#analiza-podataka-iz-web-stranice">Analiza podataka iz web stranice</a></li>
+<li><a class="reference internal" href="#postavljanje-obavijestavanja">Postavljanje obaviještavanja</a><ul>
+<li><a class="reference internal" href="#podesavanje-email-adrese">Podešavanje email adrese</a></li>
+<li><a class="reference internal" href="#kako-dopustiti-manje-sigurnim-aplikacijama-da-mi-salju-email">Kako dopustiti manje sigurnim aplikacijama da mi šalju email?</a></li>
+<li><a class="reference internal" href="#slanje-testnog-emaila">Slanje testnog emaila</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pokretanje-pravila">Pokretanje pravila</a></li>
+<li><a class="reference internal" href="#licenca">Licenca</a></li>
+<li><a class="reference internal" href="#buduci-razvoj">Budući razvoj</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Trenutna stranica</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Prikaži izvorni kod</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Brzo pretraživanje</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Traži" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigacija</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Opceniti abecedni indeks"
+             >abecedni indeks</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Njuskalo Poštar 0.0.1 dokumentacija</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">O aplikaciji</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Sva prava zadržana 2020, Hrvoje Jerković.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+    </div>
+  </body>
+</html>
