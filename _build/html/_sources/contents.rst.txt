@@ -6,6 +6,12 @@ Za više informacija i licenciranju produkcijske verzije aplikacije obratite se 
 
 Slobodno se obratiti i ako imate specifičnih zahtjeva glede dohvata, analize i definiranje poslovne logike nad podacima iz ostalih web stranica ili različitih ostalih izvora podataka (baza i skladišta podataka, raznih nestrukturiranih podataka i sl.)
 
+Download
+========
+Aplikaciju možete preuzeti na ovom linku:
+``https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe`_ <https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe>`_ 
+
+
 Dohvat podataka sa njuskalo.hr stranice
 ================================================
 Pod  “**Unesite URL**” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa njuskalo.hr. 
