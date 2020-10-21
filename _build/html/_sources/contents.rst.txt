@@ -9,7 +9,7 @@ Slobodno se obratiti i ako imate specifičnih zahtjeva glede dohvata, analize i 
 Download
 ========
 Aplikaciju možete preuzeti na ovom linku:
-``https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe`_ <https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe>`_ 
+https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe
 
 
 Dohvat podataka sa njuskalo.hr stranice
