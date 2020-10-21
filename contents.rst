@@ -11,6 +11,12 @@ Download
 Aplikaciju možete preuzeti na ovom linku:
 https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe
 
+Ako prilikom download dobijete ovakvo upozorenje slobodno ga ignorirajte:
+
+.. image:: ./images/kix.i8ypikienuq0.png
+
+Web pretraživači mogu izbaciti takvo upozorenje jer se radi o aplikaciji o kojoj ne znaju ništa. Aplikacija svakako nema nikakvih crva ili virusa. Vlastiti antivirusni softver će vas prilikom instalacije automatski upozoriti ukoliko postoje bilo kakve sigurnosne prijetnje.
+
 
 Dohvat podataka sa njuskalo.hr stranice
 ================================================
