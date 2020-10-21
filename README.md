@@ -9,11 +9,13 @@ Slobodno se obratiti i ako imate specifičnih zahtjeva glede dohvata, analize i 
 ## Dokumentacija
 
 Dokumentacija o korištenju aplikacije je dostupna ovdje:
+
 https://njuskalo-postar-dokumentacija.readthedocs.io/hr/latest/contents.html
 
 ## Download
 
-Download Windows draft verzije aplikacije je dostupn ovdje:
+Download Windows draft verzije aplikacije je dostupna ovdje:
+
 https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe
 
 
