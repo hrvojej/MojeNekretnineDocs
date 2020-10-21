@@ -22,7 +22,8 @@ Web pretraživači mogu izbaciti takvo upozorenje jer se radi o aplikaciji o koj
 Instalacija aplikacije
 ======================
 Iz istog razloga će vam Windows javiti upozorenje koje također možete ignorirati.  Klikinte na “**More info**”:
-.
+
+
 .. image:: ./images/kix.z6lunu8t6lx2.png
 
 
