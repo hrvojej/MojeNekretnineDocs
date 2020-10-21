@@ -15,6 +15,8 @@ Ako prilikom download dobijete ovakvo upozorenje slobodno ga ignorirajte:
 
 .. image:: ./images/kix.i8ypikienuq0.png
 
+Kliknite na strelicu prema gore i odaberite opciju "Keep" ili "Zadrži" ovisno na kojem vam je jeziku pretraživač. 
+
 Web pretraživači mogu izbaciti takvo upozorenje jer se radi o aplikaciji o kojoj ne znaju ništa. Aplikacija svakako nema nikakvih crva ili virusa. Vlastiti antivirusni softver će vas prilikom instalacije automatski upozoriti ukoliko postoje bilo kakve sigurnosne prijetnje.
 
 
