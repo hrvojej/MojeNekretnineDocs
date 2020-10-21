@@ -14,7 +14,7 @@ https://njuskalo-postar-dokumentacija.readthedocs.io/hr/latest/contents.html
 
 ## Download
 
-Download Windows draft verzije aplikacije je dostupna ovdje:
+Download Windows draft verzije aplikacije je dostupan ovdje:
 
 https://github.com/hrvojej/njuskalopostardocs/releases/download/0.0.1/NjuskaloPostar.exe
 
