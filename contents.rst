@@ -38,8 +38,8 @@ Ovaj video od 4 minute će vam pokazati sve mogućnosti aplikacije:
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0HAdDIZVI-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="position: relative; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="800" height="600" src="https://www.youtube.com/embed/0HAdDIZVI-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
