@@ -129,7 +129,9 @@ U području iznad tih gumbiju vidjeti ćete obavijesti o trenutnom statusu proce
 .. image:: ./images/kix.6od9hcd9wno.png
 
 
+Smisao je da vam aplikacija bude stalno pokrenuta tijekom cijelog radnog vremena i da dobivate obavijest na mail samo kada se pojavi tražena nekretnina.
 
+Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
 
 Licenca
 ============
