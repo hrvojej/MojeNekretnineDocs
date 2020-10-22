@@ -1,6 +1,6 @@
 O aplikaciji
 ============
-Aplikacija za dohvat, analizu i obaviještavanje na temelju podataka sa njuškalo.hr stranice.
+Aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Za više informacija i licenciranju produkcijske verzije aplikacije obratite se na `hrvojej@gmail.com <mailto:hrvojej@gmail.com>`_.
 
 
