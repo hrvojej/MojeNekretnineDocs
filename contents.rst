@@ -144,6 +144,10 @@ Kroz daljnji razvoj planira se :
 * Implementacija dohvata sa oglasa sa ostalih portala: index.hr, oglasnik.hr itd.
 * Implementacija kreiranja više različitih pravila obavještavanja odjednom
 
+Feedback
+========
+Ako imate prijedlog kako bi se aplikacija još mogla unaprijediti slobodno mi javite. 
+
 
 
 
