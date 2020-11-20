@@ -1,10 +1,7 @@
 O aplikaciji
 ============
 Aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
-Za više informacija i licenciranju produkcijske verzije aplikacije obratite se na `hrvojej@gmail.com <mailto:hrvojej@gmail.com>`_.
 
-
-Slobodno se obratiti i ako imate specifičnih zahtjeva glede dohvata, analize i definiranje poslovne logike nad podacima iz ostalih web stranica ili različitih ostalih izvora podataka (baza i skladišta podataka, raznih nestrukturiranih podataka i sl.)
 
 Download
 ========
@@ -144,9 +141,6 @@ Kroz daljnji razvoj planira se :
 * Implementacija dohvata sa oglasa sa ostalih portala: index.hr, oglasnik.hr itd.
 * Implementacija kreiranja više različitih pravila obavještavanja odjednom
 
-Feedback
-========
-Ako imate prijedlog kako bi se aplikacija još mogla unaprijediti slobodno mi javite. 
 
 
 
