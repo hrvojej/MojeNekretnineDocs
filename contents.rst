@@ -130,9 +130,6 @@ Smisao je da vam aplikacija bude stalno pokrenuta tijekom cijelog radnog vremena
 
 Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
 
-Licenca
-============
-Dopušteno je  korištenje i distribucija ove aplikacije u komercijalne i nekomercijalne svrhe. 
 
 Budući razvoj
 ==============
