@@ -1,11 +1,53 @@
 O aplikaciji
 ============
 Aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
+Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
+
+O autoru
+========
+Zovem se Hrvoje, volim programirati, predajem na faksu i radim projekte iz područja podatkovne znanosti.
+
+Više o meni: 
+
+https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
+
+Učestala pitanja
+================
+Da li je to sigurna aplikacija koja nema crva, virusa i sl. u sebi?
+-------------------------------------------------------------------
+Naravno, pogledajte izvještaj sa virustotal.com sitea koji skenira aplikacije kroz sve najvažnije antivirusne softvere.
+Izvještaj je ovdje:
+
+https://www.virustotal.com/gui/url/3c6fbcd1eb190c34ea5ca0a17cfb71d7bb0e98d0a81de354668afe0aa08e12d4/detection
+
+Zašto mi Google Chrome javlja upozorenje kada preuzimam aplikaciju?
+-------------------------------------------------------------------
+Zato što aplikacija nije često preuzimana pa Google ne zna o njoj ništa.
+
+Zašto mi Windowsi javljaju upozorenje kada pokušam instalirati aplikaciju?
+--------------------------------------------------------------------------
+Zato što niti Microsoft ne zna ništa o aplikaciji jer nije često preuzimana i nema certifikat. Nemam namjeru kupovati certifikat pa će to upozorenje ostati. No ako dovoljan broj ljudi bude koristio aplikaciju Microsft će s vremenom sam maknuti to upozorenje i isto vrijedi i za Google Chrome.
+
+Zašto mi Google javlja upozorenje kada uključim pristup manje sigurnim aplikacijama (Less secure apps)?
+-------------------------------------------------------------------------------------------------------
+Zato što se radi o aplikaciji koja nema visoku sigurnosnu proceduru implementiranu kroz Googleov sustav. Što ne znači da će vam netko hakirati Gmail zbog toga - to nije moguće ako sami ne date privolu za to.
+Ova aplikacija vas obaviještava na vaš mail jer je to najjednostavniji i jedini besplatan način rada koji ne zahtjeva uspostavu nekog centralnog servisa za slanje maila koji košta i zahtjeva dodatnu infrastrukturu. 
+Aplikacija stoga treba vaš email i lozinku od maila koja se koristi isključivo unutar aplikacije za slanje obavijesti na vaš maila i nigdje drugdje. Stoga je bitno napomenuti da ova aplikacija 
+
+**ne skuplja, ne šalje i ne procesira vaše osobne podatke  niti skuplja podatke o korištenju same aplikacije niti na bilo koji drugi način krši GDPR zakon o osobnim podacima. Sva komunikacije koju aplikacija ima je između nje same i njuskala.hr te Googlovog email servera koji se koristi za slanje email obavijesti.**
+
+Ako i dalje smatrate da bi aplikacija ugrozila vaš Google account preporuka je da otvorite novi Google account koji ćete koristiti samo za obaviještavanje kroz ovu aplikaciju:
+
+https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp
+
+Onda obavijesti koje dolaze na taj Gmail account možete preusmjeriti na Google account koji koristite. 
+
 
 
 Download
 ========
 Aplikaciju možete preuzeti na ovom linku:
+
 https://github.com/hrvojej/njuskalopostardocs/releases/download/0.3-beta/NjuskaloPostar.exe
 
 Ako prilikom download dobijete ovakvo upozorenje slobodno ga ignorirajte i kliknite na strelicu prema gore i odaberite opciju "Keep" ili "Zadrži" ovisno na kojem vam je jeziku pretraživač:  
@@ -78,9 +120,7 @@ Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači d
 
 Podešavanje email adrese
 ------------------------
-Važno je napomenuti da ova aplikacije 
 
-**ne skuplja, ne šalje i ne procesira vaše osobne podatke  niti skuplja podatke o korištenju same aplikacije. Sva komunikacije koju aplikacija ima je između nje same i njuskala.hr te Googlovog email servisa.**
 
 Ova aplikacija zahtjeva da unesete i email adresu i email lozinku u nju. Zašto? Jer je to najjednostavniji, najbrži i besplatan način dohvata novih podataka i slanja obavijesti o istima. 
 Svi ostali mehanizmi/aplikacije zahtjevaju plaćenu platformu ili kompleksne načine osobne autentifikacija na Google račun što nije trivijalan proces niti besplatan proces. A ova aplikacija je besplatna.
