@@ -30,7 +30,9 @@ Zato što niti Microsoft ne zna ništa o aplikaciji jer nije često preuzimana i
 
 Zašto mi Google javlja upozorenje kada uključim pristup manje sigurnim aplikacijama (Less secure apps)?
 -------------------------------------------------------------------------------------------------------
-Zato što se radi o aplikaciji koja nema visoku sigurnosnu proceduru implementiranu kroz Googleov sustav. Što ne znači da će vam netko hakirati Gmail zbog toga - to nije moguće ako sami ne date privolu za to.
+Zato što se radi o aplikaciji koja nema visoku sigurnosnu proceduru implementiranu kroz Googleov sustav jer bi to svaki korisnik trebao zasebno raditi kroz svoj Google account što se ne može očekivati od običnog korisnika aplikacije. 
+Što ne znači da će vam netko hakirati Gmail zbog toga - to nije moguće ako sami ne date privolu za to.
+
 Ova aplikacija vas obaviještava na vaš mail jer je to najjednostavniji i jedini besplatan način rada koji ne zahtjeva uspostavu nekog centralnog servisa za slanje maila koji košta i zahtjeva dodatnu infrastrukturu. 
 Aplikacija stoga treba vaš email i lozinku od maila koja se koristi isključivo unutar aplikacije za slanje obavijesti na vaš maila i nigdje drugdje. Stoga je bitno napomenuti da ova aplikacija 
 
