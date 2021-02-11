@@ -55,7 +55,7 @@ Download
 ========
 Aplikaciju možete preuzeti na ovom linku:
 
-https://github.com/hrvojej/njuskalopostardocs/releases/download/0.3-beta/NjuskaloPostar.exe
+https://github.com/hrvojej/njuskalopostardocs/releases/download/v0.0.4-beta/NjuskaloPostar.exe
 
 Ako prilikom download dobijete ovakvo upozorenje slobodno ga ignorirajte i kliknite na strelicu prema gore i odaberite opciju "Keep" ili "Zadrži" ovisno na kojem vam je jeziku pretraživač:  
 
