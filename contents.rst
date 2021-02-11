@@ -11,7 +11,6 @@ Više o meni:
 
 https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
 
-Volim raditi projekte iz područja praktične primjene strojnog učenja. 
 Primjer projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):
 
 https://www.oglasnik.hr/procjena-cijene-automobila
