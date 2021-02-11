@@ -11,6 +11,11 @@ Više o meni:
 
 https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
 
+Volim raditi projekte iz područja praktične primjene strojnog učenja. 
+Primjer projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):
+
+https://www.oglasnik.hr/procjena-cijene-automobila
+
 Učestala pitanja
 ================
 Da li je to sigurna aplikacija koja nema crva, virusa i sl. u sebi?
@@ -19,6 +24,8 @@ Naravno, pogledajte izvještaj sa virustotal.com sitea koji skenira aplikacije k
 Izvještaj je ovdje:
 
 https://www.virustotal.com/gui/url/3c6fbcd1eb190c34ea5ca0a17cfb71d7bb0e98d0a81de354668afe0aa08e12d4/detection
+
+No zašto vjerovati meni - skenirajte i sami aplikaciju sa vašim antivirusnim softverom pa vidite hoće li vam što javiti.
 
 Zašto mi Google Chrome javlja upozorenje kada preuzimam aplikaciju?
 -------------------------------------------------------------------
@@ -45,7 +52,6 @@ https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&fl
 Onda obavijesti koje dolaze na taj Gmail account možete preusmjeriti na Google account koji koristite. 
 
 
-
 Download
 ========
 Aplikaciju možete preuzeti na ovom linku:
@@ -55,7 +61,6 @@ https://github.com/hrvojej/njuskalopostardocs/releases/download/0.3-beta/Njuskal
 Ako prilikom download dobijete ovakvo upozorenje slobodno ga ignorirajte i kliknite na strelicu prema gore i odaberite opciju "Keep" ili "Zadrži" ovisno na kojem vam je jeziku pretraživač:  
 
 .. image:: ./images/kix.uxtxxca1t4ag.png
-
 
 
 Web pretraživači mogu izbaciti takvo upozorenje jer se radi o aplikaciji o kojoj ne znaju ništa. Aplikacija svakako nema nikakvih crva ili virusa. Vlastiti antivirusni softver će vas prilikom instalacije automatski upozoriti ukoliko postoje bilo kakve sigurnosne prijetnje.
