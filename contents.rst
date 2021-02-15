@@ -1,6 +1,6 @@
 O aplikaciji
 ============
-**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA NJUSKALO.HR STRANICE SVAKIH 5 MINUTA U VAŠ MAIL**
+**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA NJUSKALO.HR STRANICE SVAKIH 5 MINUTA NA VAŠ MAIL**
 Njuškalo Poštar je aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
 
@@ -9,7 +9,8 @@ O autoru
 Zovem se Hrvoje, volim programirati, predajem na faksu i radim projekte iz područja podatkovne znanosti.
 
 Više o meni: 
-
+https://www.linkedin.com/in/hjerkovic/
+i
 https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
 
 Primjer projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):
