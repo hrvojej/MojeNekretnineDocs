@@ -10,12 +10,12 @@ O autoru
 Zovem se Hrvoje,živim u Zagrebu i volim raditi praktično primjenjive projekte iz područja podatkovne znanosti.
 Predajem kolegije iz područja podatkovne znanosti na Algebra Sveučilištu (Data science diplomski studij).
 
-Više o meni: 
-https://www.linkedin.com/in/hjerkovic/
-i
+Više o meni: <br/>
+https://www.linkedin.com/in/hjerkovic/<br/>
+i<br/>
 https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
 
-Primjer izrađenih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr): 
+Primjer izrađenih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr): <br/>
 https://www.oglasnik.hr/procjena-cijene-automobila
 
 Učestala pitanja o Njuškalo Poštar aplikaciji
