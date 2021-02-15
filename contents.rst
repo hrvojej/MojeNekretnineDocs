@@ -1,24 +1,26 @@
 O aplikaciji
 ============
 **PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA NJUSKALO.HR STRANICE SVAKIH 5 MINUTA NA VAŠ MAIL**
+
 Njuškalo Poštar je aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
 
 O autoru
 ========
-Zovem se Hrvoje, volim programirati, predajem na faksu i radim projekte iz područja podatkovne znanosti.
+Zovem se Hrvoje,živim u Zagrebu i volim raditi praktično primjenjive projekte iz područja podatkovne znanosti.
+Predajem kolegije iz područja podatkovne znanosti na Algebra Sveučilištu (Data science diplomski studij).
 
 Više o meni: 
 https://www.linkedin.com/in/hjerkovic/
 i
 https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
 
-Primjer projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):
+Primjer izrađenih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):
 
 https://www.oglasnik.hr/procjena-cijene-automobila
 
-Učestala pitanja
-================
+Učestala pitanja o Njuškalo Poštar aplikaciji
+=============================================
 Da li je to sigurna aplikacija koja nema crva, virusa i sl. u sebi?
 -------------------------------------------------------------------
 Naravno, pogledajte izvještaj sa virustotal.com sitea koji skenira aplikacije kroz sve najvažnije antivirusne softvere.
@@ -26,7 +28,6 @@ Izvještaj je ovdje:
 
 https://www.virustotal.com/gui/url/3c6fbcd1eb190c34ea5ca0a17cfb71d7bb0e98d0a81de354668afe0aa08e12d4/detection
 
-No zašto vjerovati meni - skenirajte i sami aplikaciju sa vašim antivirusnim softverom pa vidite hoće li vam što javiti.
 
 Zašto mi Google Chrome javlja upozorenje kada preuzimam aplikaciju?
 -------------------------------------------------------------------
@@ -91,7 +92,7 @@ Ovaj video od 4 minute će vam pokazati sve mogućnosti aplikacije:
 
 
 Dohvat podataka sa njuskalo.hr stranice
-================================================
+=======================================
 Pod  “**Unesite URL**” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa njuskalo.hr. 
 Savjetujemo da unesete link sa već podešenim filterima na Njuškalu tipa:
 
@@ -185,6 +186,8 @@ Kroz daljnji razvoj planira se :
 
 * Implementacija dohvata sa oglasa sa ostalih portala: index.hr, oglasnik.hr itd.
 * Implementacija kreiranja više različitih pravila obavještavanja odjednom
+* Implementacija praćenja cijene pojedinog oglasa i obaviještavanje o promjenama
+	
 
 
 
