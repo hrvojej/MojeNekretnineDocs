@@ -1,8 +1,8 @@
 O aplikaciji
 ============
-**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA NJUSKALO.HR STRANICE SVAKIH 5 MINUTA NA VAŠ MAIL**
+**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA NJUSKALO.HR**
 
-Njuškalo Poštar je aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
+Njuškalo Poštar je besplatna aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
 
 O autoru
