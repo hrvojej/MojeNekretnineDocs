@@ -111,18 +111,19 @@ Kliknite na tab “**Podaci iz web stranice**”.
 Crveno uokvireno su naslovi polja koji ujedno funkcioniraju kao i filteri. Slično kao u Excelu.
 Ako kliknet na npr. polje “**Naslov**” otvoriti će vam se svi naslovi oglasa. Zatim idite na polje “**Pretraga**” (odmah iznad) i tu možete upisati tekst po kojem želite filtrirati polje “**Naslov**” npr. “*U zgradi*”. 
 Na sličan način možete pretraživati i po ostalim poljima; prvo kliknite na polje a onda u polje pretrage unesete pojam po kojem želite pretraživati. 
-Savjet je da proučite sadržaj pojedinih polja kako biste znali kreirati obavještavanje na slijedećem tabu.
+Savjet je da proučite sadržaj pojedinih polja kako biste znali kreirati obavještavanje na slijedećem prozoru.
 
 Postavljanje obaviještavanja
 ====================================
 
 Kliknite na tab “ Obavještavanje ”.
-CIlj obaviještavanja je da vas aplikacija svakih odabrani broj minuta na vaš mail obavještava kada se pojavio novi oglas koji zadovoljava vaše kriterije. 
+Cilj obaviještavanja je da vas aplikacija svakih odabrani broj minuta na vaš mail obavještava kada se pojavio novi oglas koji zadovoljava vaše kriterije. 
 Na slici dolje dan je primjer kako možete podesiti obavještavanje.
 
 .. image:: ./images/kix.u6gjg8i41bdq.png
 
-
+Filteri koje podesite ovdje će dodatno filtrirati podatke koje ste dohvatili preko linka kojeg ste unijeli pod “Unesite URL” na prvom prozoru.
+Sve filtre možete podesiti i na stranici Njuškalo.hr onda taj link sa Njuškala ubacite u “Unesite URL” na prvom prozoru. Onda pod opcijama na prozoru "Obavještavanje" možete samo unijeti svoju Gmail adresu, lozinku i podesiti učestalost obaviještavanja, ostale opcije možete ostaviti praznima. 
 
 Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na njuskalo.hr i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na njuskalu u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
 
