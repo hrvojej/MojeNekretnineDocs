@@ -8,11 +8,10 @@ Ovo je 'beta' verzija aplikacije pa je moguće da ima još bugova.
 
 O autoru
 ========
-Zovem se Hrvoje,živim u Zagrebu i volim raditi praktično primjenjive projekte iz područja podatkovne znanosti.
+Zovem se Hrvoje, živim u Zagrebu i volim raditi praktično primjenjive projekte iz područja podatkovne znanosti.
 
 Više o meni:  
 https://www.linkedin.com/in/hjerkovic/  
-
 
 Primjer sličnih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Oglasnik.hr i Index.hr):  
 https://www.oglasnik.hr/procjena-cijene-automobila
