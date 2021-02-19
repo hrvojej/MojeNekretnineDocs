@@ -14,7 +14,7 @@ Više o meni:
 https://www.linkedin.com/in/hjerkovic/  
 
 
-Primjer sličnih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):  
+Primjer sličnih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Oglasnik.hr i Index.hr):  
 https://www.oglasnik.hr/procjena-cijene-automobila
 
 Učestala pitanja o Njuškalo Poštar aplikaciji
@@ -184,7 +184,7 @@ Budući razvoj
 ==============
 Kroz daljnji razvoj planira se :
 
-* Implementacija dohvata sa oglasa sa ostalih portala: index.hr, oglasnik.hr itd.
+* Implementacija dohvata sa oglasa sa ostalih portala: oglasnik.hr, index.hr itd.
 * Implementacija kreiranja više različitih pravila obavještavanja odjednom
 * Implementacija praćenja cijene pojedinog oglasa i obaviještavanje o promjenama
 	
