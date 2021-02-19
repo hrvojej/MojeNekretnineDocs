@@ -126,6 +126,8 @@ Filteri koje podesite ovdje će dodatno filtrirati podatke koje ste dohvatili pr
 Sve filtre možete podesiti i na stranici Njuškalo.hr onda taj link sa Njuškala ubacite u “Unesite URL” na prvom prozoru. Onda pod opcijama na prozoru "Obavještavanje" možete samo unijeti svoju Gmail adresu, lozinku i podesiti učestalost obaviještavanja, ostale opcije možete ostaviti praznima. 
 
 Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na njuskalo.hr i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na njuskalu u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
+Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
+
 
 Podešavanje email adrese
 ------------------------
@@ -177,7 +179,6 @@ U području iznad tih gumbiju vidjeti ćete obavijesti o trenutnom statusu proce
 
 Smisao je da vam aplikacija bude stalno pokrenuta tijekom cijelog radnog vremena i da dobivate obavijest na mail samo kada se pojavi tražena nekretnina.
 
-Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
 
 
 Budući razvoj
