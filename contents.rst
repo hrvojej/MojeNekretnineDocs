@@ -4,18 +4,17 @@ O aplikaciji
 
 Njuškalo Poštar je besplatna desktop Windows aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
+Ovo je 'beta' verzija aplikacije pa je moguće da ima još bugova. 
 
 O autoru
 ========
 Zovem se Hrvoje,živim u Zagrebu i volim raditi praktično primjenjive projekte iz područja podatkovne znanosti.
-Predajem kolegije iz područja podatkovne znanosti na Algebra Sveučilištu (Data science diplomski studij).
 
 Više o meni:  
 https://www.linkedin.com/in/hjerkovic/  
-i  
-https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
 
-Primjer izrađenih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):  
+
+Primjer sličnih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):  
 https://www.oglasnik.hr/procjena-cijene-automobila
 
 Učestala pitanja o Njuškalo Poštar aplikaciji
