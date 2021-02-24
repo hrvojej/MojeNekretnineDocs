@@ -1,23 +1,23 @@
 O aplikaciji
 ============
-Aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
+**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA KLJUČNIH PORTALA ZA OGLAŠAVANJE NEKRETNINA**
+
+Moje Nekretnine je besplatna desktop Windows aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
+Ovo je 'beta' verzija aplikacije pa je moguće da ima još bugova. 
 
 O autoru
 ========
-Zovem se Hrvoje, volim programirati, predajem na faksu i radim projekte iz područja podatkovne znanosti.
+Zovem se Hrvoje, živim u Zagrebu i volim raditi praktično primjenjive projekte iz područja podatkovne znanosti.
 
-Više o meni: 
+Više o meni:  
+https://www.linkedin.com/in/hjerkovic/  
 
-https://www.algebra.hr/visoko-uciliste/studij/diplomski-studij/podatkovni-smjer/nastavni-plan/metode-strojnog-ucenja/2789/doc-dr-sc-hrvoje-jerkovic/324/
-
-Volim raditi projekte iz područja praktične primjene strojnog učenja. 
-Primjer projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Index.hr i Oglasnik.hr):
-
+Primjer sličnih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Oglasnik.hr i Index.hr):  
 https://www.oglasnik.hr/procjena-cijene-automobila
 
-Učestala pitanja
-================
+Učestala pitanja o Moje Nekretnine aplikaciji
+=============================================
 Da li je to sigurna aplikacija koja nema crva, virusa i sl. u sebi?
 -------------------------------------------------------------------
 Naravno, pogledajte izvještaj sa virustotal.com sitea koji skenira aplikacije kroz sve najvažnije antivirusne softvere.
@@ -25,7 +25,6 @@ Izvještaj je ovdje:
 
 https://www.virustotal.com/gui/url/3c6fbcd1eb190c34ea5ca0a17cfb71d7bb0e98d0a81de354668afe0aa08e12d4/detection
 
-No zašto vjerovati meni - skenirajte i sami aplikaciju sa vašim antivirusnim softverom pa vidite hoće li vam što javiti.
 
 Zašto mi Google Chrome javlja upozorenje kada preuzimam aplikaciju?
 -------------------------------------------------------------------
@@ -56,7 +55,7 @@ Download
 ========
 Aplikaciju možete preuzeti na ovom linku:
 
-https://github.com/hrvojej/njuskalopostardocs/releases/download/0.3-beta/NjuskaloPostar.exe
+https://github.com/hrvojej/njuskalopostardocs/releases/download/v0.1.0-beta2/NjuskaloPostar.exe
 
 Ako prilikom download dobijete ovakvo upozorenje slobodno ga ignorirajte i kliknite na strelicu prema gore i odaberite opciju "Keep" ili "Zadrži" ovisno na kojem vam je jeziku pretraživač:  
 
@@ -89,10 +88,10 @@ Ovaj video od 4 minute će vam pokazati sve mogućnosti aplikacije:
     </div>
 
 
-Dohvat podataka sa njuskalo.hr stranice
-================================================
-Pod  “**Unesite URL**” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa njuskalo.hr. 
-Savjetujemo da unesete link sa već podešenim filterima na Njuškalu tipa:
+Dohvat podataka sa stranica portala o nekretninama stranice
+===========================================================
+Za svaki od navedenih portala pod  “**Unesite URL**” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa dotičnog portala. 
+Savjetujemo da unesete link sa već podešenim filterima na uzet sa stranice portala, evo primjera za link sa filterima uzet sa njuskalo.hr stranice:
 
 `https://www.njuskalo.hr/prodaja-stanova?locationIds=2676&livingArea%5Bmin%5D=60&livingArea%5Bmax%5D=120&adsWithImages=1&flatBuildingType=flat-in-residential-building&flatFloorCount=single-floor&numberOfRooms%5Bmax%5D=two-rooms <https://www.njuskalo.hr/prodaja-stanova?locationIds=2676&livingArea%5Bmin%5D=60&livingArea%5Bmax%5D=120&adsWithImages=1&flatBuildingType=flat-in-residential-building&flatFloorCount=single-floor&numberOfRooms%5Bmax%5D=two-rooms>`_
 
@@ -100,6 +99,7 @@ Jer za pretpostaviti da tražite stan u određenom dijelu grada, određene veli�
 
 .. image:: ./images/kix.53nm7xvsyw6n.png
 
+Podrška za ostale portale dolazi uskoro.
 
 
 Ovaj pogled je bitan kako biste bili sigurni da je program uspješno učitao web stranicu.
@@ -110,20 +110,23 @@ Kliknite na tab “**Podaci iz web stranice**”.
 Crveno uokvireno su naslovi polja koji ujedno funkcioniraju kao i filteri. Slično kao u Excelu.
 Ako kliknet na npr. polje “**Naslov**” otvoriti će vam se svi naslovi oglasa. Zatim idite na polje “**Pretraga**” (odmah iznad) i tu možete upisati tekst po kojem želite filtrirati polje “**Naslov**” npr. “*U zgradi*”. 
 Na sličan način možete pretraživati i po ostalim poljima; prvo kliknite na polje a onda u polje pretrage unesete pojam po kojem želite pretraživati. 
-Savjet je da proučite sadržaj pojedinih polja kako biste znali kreirati obavještavanje na slijedećem tabu.
+Savjet je da proučite sadržaj pojedinih polja kako biste znali kreirati obavještavanje na slijedećem prozoru.
 
 Postavljanje obaviještavanja
 ====================================
 
 Kliknite na tab “ Obavještavanje ”.
-CIlj obaviještavanja je da vas aplikacija svakih odabrani broj minuta na vaš mail obavještava kada se pojavio novi oglas koji zadovoljava vaše kriterije. 
+Cilj obaviještavanja je da vas aplikacija svakih odabrani broj minuta na vaš mail obavještava kada se pojavio novi oglas koji zadovoljava vaše kriterije. 
 Na slici dolje dan je primjer kako možete podesiti obavještavanje.
 
 .. image:: ./images/kix.u6gjg8i41bdq.png
 
+Filteri koje podesite ovdje će dodatno filtrirati podatke koje ste dohvatili preko linka kojeg ste unijeli pod “Unesite URL” na prvom prozoru.
+Sve filtre možete podesiti i na stranici Njuškalo.hr onda taj link sa Njuškala ubacite u “Unesite URL” na prvom prozoru. Onda pod opcijama na prozoru "Obavještavanje" možete samo unijeti svoju Gmail adresu, lozinku i podesiti učestalost obaviještavanja, ostale opcije možete ostaviti praznima. 
 
+Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na portale i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na dotičnim portalima u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
+Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
 
-Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na njuskalo.hr i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na njuskalu u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
 
 Podešavanje email adrese
 ------------------------
@@ -175,15 +178,16 @@ U području iznad tih gumbiju vidjeti ćete obavijesti o trenutnom statusu proce
 
 Smisao je da vam aplikacija bude stalno pokrenuta tijekom cijelog radnog vremena i da dobivate obavijest na mail samo kada se pojavi tražena nekretnina.
 
-Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
 
 
 Budući razvoj
 ==============
 Kroz daljnji razvoj planira se :
 
-* Implementacija dohvata sa oglasa sa ostalih portala: index.hr, oglasnik.hr itd.
+* Implementacija dohvata sa oglasa sa ostalih portala: oglasnik.hr, index.hr itd.
 * Implementacija kreiranja više različitih pravila obavještavanja odjednom
+* Implementacija praćenja cijene pojedinog oglasa i obaviještavanje o promjenama
+	
 
 
 
