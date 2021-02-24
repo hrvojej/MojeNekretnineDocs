@@ -1,8 +1,8 @@
 O aplikaciji
 ============
-**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA NJUSKALO.HR**
+**PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA KLJUČNIH PORTALA ZA OGLAŠAVANJE NEKRETNINA**
 
-Njuškalo Poštar je besplatna desktop Windows aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
+Moje Nekretnine je besplatna desktop Windows aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
 Ovo je 'beta' verzija aplikacije pa je moguće da ima još bugova. 
 
@@ -16,7 +16,7 @@ https://www.linkedin.com/in/hjerkovic/
 Primjer sličnih projekta - procjena cijene automobila na temelju podataka iz sva tri ključna oglasnika (Njuskalo.hr, Oglasnik.hr i Index.hr):  
 https://www.oglasnik.hr/procjena-cijene-automobila
 
-Učestala pitanja o Njuškalo Poštar aplikaciji
+Učestala pitanja o Moje Nekretnine aplikaciji
 =============================================
 Da li je to sigurna aplikacija koja nema crva, virusa i sl. u sebi?
 -------------------------------------------------------------------
@@ -88,10 +88,10 @@ Ovaj video od 4 minute će vam pokazati sve mogućnosti aplikacije:
     </div>
 
 
-Dohvat podataka sa njuskalo.hr stranice
-=======================================
-Pod  “**Unesite URL**” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa njuskalo.hr. 
-Savjetujemo da unesete link sa već podešenim filterima na Njuškalu tipa:
+Dohvat podataka sa stranica portala o nekretninama stranice
+===========================================================
+Za svaki od navedenih portala pod  “**Unesite URL**” postavite web adresu iza koje stoje oglasi iz kategorije Prodaja/Stanovi sa dotičnog portala. 
+Savjetujemo da unesete link sa već podešenim filterima na uzet sa stranice portala, evo primjera za link sa filterima uzet sa njuskalo.hr stranice:
 
 `https://www.njuskalo.hr/prodaja-stanova?locationIds=2676&livingArea%5Bmin%5D=60&livingArea%5Bmax%5D=120&adsWithImages=1&flatBuildingType=flat-in-residential-building&flatFloorCount=single-floor&numberOfRooms%5Bmax%5D=two-rooms <https://www.njuskalo.hr/prodaja-stanova?locationIds=2676&livingArea%5Bmin%5D=60&livingArea%5Bmax%5D=120&adsWithImages=1&flatBuildingType=flat-in-residential-building&flatFloorCount=single-floor&numberOfRooms%5Bmax%5D=two-rooms>`_
 
@@ -99,6 +99,7 @@ Jer za pretpostaviti da tražite stan u određenom dijelu grada, određene veli�
 
 .. image:: ./images/kix.53nm7xvsyw6n.png
 
+Podrška za ostale portale dolazi uskoro.
 
 
 Ovaj pogled je bitan kako biste bili sigurni da je program uspješno učitao web stranicu.
@@ -123,7 +124,7 @@ Na slici dolje dan je primjer kako možete podesiti obavještavanje.
 Filteri koje podesite ovdje će dodatno filtrirati podatke koje ste dohvatili preko linka kojeg ste unijeli pod “Unesite URL” na prvom prozoru.
 Sve filtre možete podesiti i na stranici Njuškalo.hr onda taj link sa Njuškala ubacite u “Unesite URL” na prvom prozoru. Onda pod opcijama na prozoru "Obavještavanje" možete samo unijeti svoju Gmail adresu, lozinku i podesiti učestalost obaviještavanja, ostale opcije možete ostaviti praznima. 
 
-Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na njuskalo.hr i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na njuskalu u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
+Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na portale i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na dotičnim portalima u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
 Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
 
 
