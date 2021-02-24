@@ -2,7 +2,7 @@ O aplikaciji
 ============
 **PRIMAJTE OBAVIJESTI O NOVIM TRAŽENIM NEKRETNINAMA SA KLJUČNIH PORTALA ZA OGLAŠAVANJE NEKRETNINA**
 
-Moje Nekretnine je besplatna desktop Windows aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa njuškalo.hr stranice.
+Moje Nekretnine je besplatna desktop Windows aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na temelju podataka sa ključnih portala za oglašavanje nekretnina.
 Ako trebate više informacije, želite izraditi sličnu aplikaciju, ili imate neki drugi upit - obratite se na hrvojej@gmail.com.
 Ovo je 'beta' verzija aplikacije pa je moguće da ima još bugova. 
 
@@ -42,7 +42,7 @@ Zato što se radi o aplikaciji koja nema visoku sigurnosnu proceduru implementir
 Ova aplikacija vas obaviještava na vaš mail jer je to najjednostavniji i jedini besplatan način rada koji ne zahtjeva uspostavu nekog centralnog servisa za slanje maila koji košta i zahtjeva dodatnu infrastrukturu. 
 Aplikacija stoga treba vaš email i lozinku od maila koja se koristi isključivo unutar aplikacije za slanje obavijesti na vaš maila i nigdje drugdje. Stoga je bitno napomenuti da ova aplikacija 
 
-**ne skuplja, ne šalje i ne procesira vaše osobne podatke  niti skuplja podatke o korištenju same aplikacije niti na bilo koji drugi način krši GDPR zakon o osobnim podacima. Sva komunikacije koju aplikacija ima je između nje same i njuskala.hr te Googlovog email servera koji se koristi za slanje email obavijesti.**
+**ne skuplja, ne šalje i ne procesira vaše osobne podatke  niti skuplja podatke o korištenju same aplikacije niti na bilo koji drugi način krši GDPR zakon o osobnim podacima. Sva komunikacije koju aplikacija ima je između nje same i portala za oglašavanje nekretnina te Googlovog email servera koji se koristi za slanje email obavijesti.**
 
 Ako i dalje smatrate da bi aplikacija ugrozila vaš Google account preporuka je da otvorite novi Google account koji ćete koristiti samo za obaviještavanje kroz ovu aplikaciju:
 
@@ -122,7 +122,7 @@ Na slici dolje dan je primjer kako možete podesiti obavještavanje.
 .. image:: ./images/kix.u6gjg8i41bdq.png
 
 Filteri koje podesite ovdje će dodatno filtrirati podatke koje ste dohvatili preko linka kojeg ste unijeli pod “Unesite URL” na prvom prozoru.
-Sve filtre možete podesiti i na stranici Njuškalo.hr onda taj link sa Njuškala ubacite u “Unesite URL” na prvom prozoru. Onda pod opcijama na prozoru "Obavještavanje" možete samo unijeti svoju Gmail adresu, lozinku i podesiti učestalost obaviještavanja, ostale opcije možete ostaviti praznima. 
+Sve filtre možete podesiti i na stranici portala te link sa podešenim filterima unesite pod “Unesite URL” na prvom prozoru. Onda pod opcijama na prozoru "Obavještavanje" možete samo unijeti svoju Gmail adresu, lozinku i podesiti učestalost obaviještavanja, ostale opcije možete ostaviti praznima. 
 
 Ako ste namjestili da se novi oglasi dohvaćaju svakih 5 minuta onda to znači da će se aplikacija svakih 5 minuta spajati na portale i na temelju danih kriterija dohvaćati nove oglase koji su se pojavili na dotičnim portalima u zadnjih 5 minuta.  Ako nema niti jednog oglasa koji zadovoljava kriterij nećete dobiti nikakav email. 
 Pravilo može biti pokrenuto najduže 124 sata (cijeli radni tjedan) i najčešće se može provjeravati svakih 5 minuta.
