@@ -9,13 +9,13 @@ Aplikacija za dohvat, analizu i obaviještavanje o traženim nekretninama na tem
 
 Dokumentacija o korištenju aplikacije je dostupna ovdje:
 
-https://njuskalo-postar-dokumentacija.readthedocs.io/hr/latest/contents.html
+https://mojenekretnine.readthedocs.io/en/latest/contents.html
 
 ## Download
 
 Download Windows draft verzije aplikacije je dostupan ovdje:
 
-https://github.com/hrvojej/njuskalopostardocs/releases/download/v0.2-beta/NjuskaloPostar.exe
+https://github.com/hrvojej/MojeNekretnineDocs/releases/download/v0.1.0-beta/MojeNekretnine.exe
 
 
 
