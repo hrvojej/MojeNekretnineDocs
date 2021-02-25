@@ -17,12 +17,12 @@ master_doc = 'contents'
 
 # -- Project information -----------------------------------------------------
 
-project = 'Njuskalo Poštar'
+project = 'Moje Nekretnine'
 copyright = '2020, Hrvoje Jerković'
 author = 'Hrvoje Jerković'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
